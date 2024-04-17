@@ -7,8 +7,10 @@ topFrame=Frame(forecast_page, background="lightgrey", height=25)topFrame.pack(si
 Navigation bar:
 label1 =Label(forecast_page, relief="raised", width=15)
 label1.place(x=130, y=350)
+
 label2 =Label(forecast_page, relief="raised", width=15)
 label2.place(x=130, y=410)
+
 label3 =Label(forecast_page, relief="raised", width=15)
 label3.place(x=130, y=465)
 
@@ -26,3 +28,9 @@ Scrollable frames:
 
  Pop up message box:
  messagebox.askquestion("Form", "Do you want to Submit")
+
+
+ get date from date picker:
+ cal.get_date())
+
+ 
